@@ -11,6 +11,7 @@ public class UIManager : MonoBehaviour
     public GameObject gamePlayUI;
     public GameObject pausedUI;
     public GameObject optionsUI;
+    
 
     //Sets Main Menu to active.
     public void MainMenuUI()
@@ -20,6 +21,7 @@ public class UIManager : MonoBehaviour
         mainMenu.SetActive(true);
         Cursor.visible = true;
     }
+
     //Sets gameplay UI to active.
     public void GameplayUI()
     {

@@ -22,7 +22,7 @@ public class InputManager : MonoBehaviour, PlayerController.IPlayerActions
     //Method for printing movement direction to console and invoking the movement.
     public void OnMove(InputAction.CallbackContext context)
     {
-        Debug.Log("Receiving move input : " + context.ReadValue<Vector2>());
+        //Debug.Log("Receiving move input : " + context.ReadValue<Vector2>());
         Actions.MoveEvent?.Invoke(context.ReadValue<Vector2>());
     }
 
