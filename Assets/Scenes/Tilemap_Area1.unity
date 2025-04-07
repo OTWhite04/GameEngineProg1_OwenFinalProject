@@ -285,7 +285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee0b593f8cfc2f94a9d2457b34cfc8c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: 
+  sceneToLoad: Tilemap_Area2
   spawnPoint: 
 --- !u!114 &24598247
 MonoBehaviour:
@@ -2091,7 +2091,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8285357752629769349, guid: 76a5ec53271460c4f87242749eaf1ace, type: 3}
       propertyPath: m_Name
-      value: SpawnPoint
+      value: SpawnPoint_Scene 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
